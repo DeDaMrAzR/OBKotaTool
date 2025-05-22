@@ -53,7 +53,7 @@ namespace PROTATool
                 {
                     return list[i];
                 }
-                if (list[i].name.ToLower() == (("Open" + hardware).ToLower()))
+                if (list[i].name.ToLower() == (("Open" + hardware + "_").ToLower()))
                 {
                     return list[i];
                 }
